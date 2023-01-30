@@ -27,8 +27,3 @@ export default function aboutpage() {
     </div>
   )
 }
-console.show("ley de fibonnaci");
-a=0
-b=1
-c=a+b
-console.return (c);
