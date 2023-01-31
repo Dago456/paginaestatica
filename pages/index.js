@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function HomePage() {
   return (
     <div className={styles.container}>
-
+        /*posible error de ui*/
       <head>
         <title>Home - practica</title>
         <meta name="description" content="Home Page" />

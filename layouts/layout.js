@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import React, { Children, title } from 'react'
+import { Navbar } from '../containers/contentContainers'
 
 export const layout = () => {
   return (
@@ -10,8 +11,12 @@ export const layout = () => {
         <meta name="description" content="infomacion sobre: nirvana ${title}"/>
         <meta name="keywords" content="${title}, nirvana, kurt cobain, rock"/>
     </Head>
-    /*navbar*/
-    <main>
+    <Navbar/>
+
+    <main style={{
+      padding: '0px 20px'
+      
+    }}>
          {Children}
     </main>
 
